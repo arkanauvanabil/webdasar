@@ -1,0 +1,103 @@
+/* --- Warna Dasar Halaman --- */
+body {
+    background-color: #102030;
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+/* --- Kontainer Utama --- */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* --- Navigasi --- */
+.navbar {
+    background-color: #1a2a40;
+    padding: 15px 25px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #F4A261;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #FFD4A3;
+}
+
+/* --- Judul Halaman --- */
+h2 {
+    color: #F4A261;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* --- Box Konten / Card --- */
+.card {
+    background-color: #1E2F43;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+    background-color: #263B55;
+    transition: background-color 0.3s;
+}
+
+/* --- Tabel --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #24364F;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #2f4a6b;
+    color: #F4A261;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    border: 1px solid #3a5675;
+    padding: 10px;
+    color: #CAD6E5;
+}
+
+table tr:hover {
+    background-color: #2E4A6B;
+}
+
+/* --- Tombol --- */
+button {
+    background-color: #F4A261;
+    color: #102030;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e38c4a;
+}
